@@ -2,7 +2,6 @@ package study;
 
 //①FruitsConstantsをインポートしなさい。
 import constants.FruitsConstants;
-
 //②Fruits.javaをインポートしなさい。
 import fruits.Fruits;
 
@@ -21,7 +20,7 @@ public class Study {
          *     また、課題の画像と同じ表示になるように
          *     printFruitsの引数にはFruitsConstantsから呼び出した値を設定してください。
          */
-    	fruits.Fruits.printFruits(constants.FruitsConstants.FRUITS_LEMON_04, constants.FruitsConstants.FRUITS_COUNT_20);
+    	Fruits.printFruits(FruitsConstants.FRUITS_LEMON_04, FruitsConstants.FRUITS_COUNT_20);
 
 
     }
