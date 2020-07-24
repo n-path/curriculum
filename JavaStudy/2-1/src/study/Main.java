@@ -40,7 +40,8 @@ public class Main {
     //   引数には①で定義したfirstNameとlastNameを引数で受け取り、
     //  last_name と first_name を連結した値を返り値とする変数を定義しなさい。
     public static String getName(String first_name, String last_name) {
-    	return last_name + first_name;
+    	String full_name = last_name + first_name;
+    	return full_name;
     }
 
 
